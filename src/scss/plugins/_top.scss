@@ -1,0 +1,35 @@
+.top {
+
+  &__logo {
+    text-align: center;
+    padding-top: 58px;
+  }
+
+  &__promo {
+    display: flex;
+    justify-content: space-between;
+
+    &-item {
+      text-align: center;
+      width: calc(33.3% - 30px);
+
+      p {
+        text-transform: uppercase;
+        color: $white;
+        line-height: 1.75;
+      }
+    }
+  }
+}
+@media (max-width: 640px) {
+
+  .top__promo{
+    display: inline-block;
+  }
+  .top__promo-item{
+    margin: auto;
+    padding: 10px 0;
+  }
+}
+
+
