@@ -1,0 +1,50 @@
+.gallery {
+  padding-top: 40px;
+  line-height: 1.75;
+  
+  
+  &__wrapper {
+    padding: 7px;
+    background: $white;
+  }
+  
+
+  .swiper-button-prev,
+  .swiper-button-next{
+    position: static;
+
+    &:after {
+      display: none;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 35px;
+  }
+  
+
+}
+
+
+@media(max-width: 930px){
+
+  .swiper-wrapper{
+    
+    height: 25%;
+  }
+  .gallery__buttons{
+    display: block;
+  
+  }
+  .gallery__wraper{
+    background: auto;
+  }
+  .button{
+    min-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+

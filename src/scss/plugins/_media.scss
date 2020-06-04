@@ -1,0 +1,33 @@
+@media (max-width: 932px) {
+  .navigation {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background: $black;
+    border-bottom: 4px solid $white;
+    padding: 20px 0;
+
+    a {
+      text-align: center;
+      padding: 12px 15px;
+      display: block;
+      margin: 0;
+
+      &.active {
+        background: $white;
+        color: $black;
+      }
+    }
+  }
+  .mobile-button {
+    display: block;
+  }
+}
+
+
+
+
+  
+  
