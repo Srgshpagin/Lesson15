@@ -23,7 +23,10 @@ gulp.task('html', function () {
 });
 
 gulp.task('scripts', function () {
-  return gulp.src('src/js/plugins/*.js')
+  return gulp.src([
+    'src/js/*.js',
+    'src/js/plugins/*.js'
+    ])
       .pipe(sourcemaps.init())
       .pipe(concat('lib.js'))
       .pipe(sourcemaps.write())
