@@ -1,0 +1,69 @@
+.info {
+    padding-top: 40px;
+    line-height: 1.75;
+
+    
+    
+    &__buttons__send {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-top: 20px;
+      }
+    
+    &__wrapper {
+      padding: 7px;
+      background: $white;
+        }
+
+    &__wrapper__contact p{
+       padding-bottom: 35px;
+        }  
+    &__wrapper__send p{
+            padding-bottom: 15px;
+             }        
+        
+    .info__buttons{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 35px;
+    } 
+    
+    .button-info{
+        position: static;
+        min-width: 140px;
+        background: none;
+        color: #000;
+        border: 2px solid $black;
+        font-size: 14px;
+        padding: 9px;
+        text-transform: uppercase;
+        margin: 0;
+        width: auto;
+        height: 44px;
+        display: inline-block;
+        
+      }  
+    .button-send{
+        min-width: 100%;
+        position: static;
+        background: #000;
+        color: white;
+        font-size: 14px;
+        padding: 9px;
+        text-transform: uppercase;
+        margin: 0;
+        width: auto;
+        height: 44px;
+        text-align: center;
+        box-sizing: border-box;
+        transition: .2s;
+        cursor: pointer;
+      }
+      &:hover {
+        background-color: transparent;
+        color: $black;
+      }
+      
+    }
+      

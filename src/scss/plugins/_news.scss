@@ -1,5 +1,5 @@
 .news{
-
+margin-bottom: 35px;
   .container {
     display: flex;
     flex-wrap: wrap;
@@ -7,7 +7,7 @@
     background: url("../img/light_bg.png") repeat;
   }
 
-  
+ 
   
   &__item {
     width: calc(50% - 10px);

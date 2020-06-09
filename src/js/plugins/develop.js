@@ -1,4 +1,6 @@
 $(document).ready(function () {
+
+    //Mobile menu
     $('.mobile-button').on('click', function () {
         $('.navigation').slideToggle(400);
     });
@@ -10,6 +12,7 @@ $(document).ready(function () {
         }
     });
 
+    // Slider
     var mySwiper = new Swiper ('.swiper-container', {
         // Optional parameters
         loop: true,
@@ -21,5 +24,14 @@ $(document).ready(function () {
         autoplay: {
             delay: 3000,
         },
-    })
+    });
+
+    // Modal
+    $('.header').on('click', '.login-button', function () {
+        $('#login-modal').fadeIn();
+    });
+
+    $('.modal__window').on('click', '.modal__close', function () {
+        $('#login-modal').fadeOut();
+    });
 });

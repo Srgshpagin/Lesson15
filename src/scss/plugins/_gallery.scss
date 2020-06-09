@@ -6,12 +6,15 @@
   &__wrapper {
     padding: 7px;
     background: $white;
-  }
-  
+      }
 
+ 
+  
   .swiper-button-prev,
   .swiper-button-next{
     position: static;
+    
+    
 
     &:after {
       display: none;
@@ -25,7 +28,7 @@
     padding-top: 35px;
   }
   
-
+  
 }
 
 

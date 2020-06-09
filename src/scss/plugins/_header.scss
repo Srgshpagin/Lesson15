@@ -31,13 +31,14 @@
 
     &.active {
       border-bottom: 4px solid $white;
+      padding-bottom: 20px;
     }
   }
 }
 
 .login-button {
   text-transform: uppercase;
-  background: url("../../img/login.png") no-repeat 0 50%;
+  background: url("../../img/login.png") no-repeat 0 54%;
   display: block;
   color: $white;
   padding: 28px 0 24px 32px;
