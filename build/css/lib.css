@@ -515,27 +515,6 @@ input[type="checkbox"] {
     min-width: 100%;
     margin-bottom: 20px; } }
 
-@media (max-width: 932px) {
-  .navigation {
-    display: none;
-    position: absolute;
-    width: 100%;
-    top: 100%;
-    left: 0;
-    background: #000;
-    border-bottom: 4px solid #fff;
-    padding: 20px 0; }
-    .navigation a {
-      text-align: center;
-      padding: 12px 15px;
-      display: block;
-      margin: 0; }
-      .navigation a.active {
-        background: #fff;
-        color: #000; }
-  .mobile-button {
-    display: block; } }
-
 .modal {
   position: fixed;
   display: none;
@@ -726,3 +705,24 @@ input[type="checkbox"] {
     padding-right: 6px; }
   .footer p {
     padding-bottom: 12px; }
+
+@media (max-width: 932px) {
+  .navigation {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background: #000;
+    border-bottom: 4px solid #fff;
+    padding: 20px 0; }
+    .navigation a {
+      text-align: center;
+      padding: 12px 15px;
+      display: block;
+      margin: 0; }
+      .navigation a.active {
+        background: #fff;
+        color: #000; }
+  .mobile-button {
+    display: block; } }
